@@ -1,7 +1,7 @@
 import { Container } from "@/components/container";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { FaEnvelope, FaGoogle, FaLock, FaUser } from "react-icons/fa";
+import { FaEnvelope, FaGoogle, FaLock } from "react-icons/fa";
 
 export function Login() {
     return(
@@ -10,12 +10,6 @@ export function Login() {
                 <form className="flex flex-col items-center gap-4">
                     <h1 className="text-white font-bold text-4xl">IISC</h1>
                     <div className="flex flex-col gap-4 w-96">
-                        <Input 
-                            type="text" 
-                            name="name" 
-                            placeholder="Digite o seu nome..." 
-                            icon={<FaUser color="white" />}
-                        />
                         <Input 
                             type="email" 
                             name="email" 

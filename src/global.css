@@ -4,7 +4,7 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(#131313, #141414);
+  background-color: #121212;
 }
 
 ::-webkit-scrollbar {
