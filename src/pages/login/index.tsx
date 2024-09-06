@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FaEnvelope, FaGoogle, FaLock, FaUser } from "react-icons/fa";
 
-export function Register() {
-    return (
+export function Login() {
+    return(
         <Container>
             <div className="w-full min-h-screen flex justify-center items-center flex-col">
                 <form className="flex flex-col items-center gap-4">
@@ -47,5 +47,5 @@ export function Register() {
                 </form>
             </div>
         </Container>
-    );
+    )
 }
